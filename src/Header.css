@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  background-color: #3f0f40;
+  color: white;
+}
+
+.header__left {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+}
+.header__avatar,
+.header__time {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.header__search {
+  border: 1px solid gray;
+  border-radius: 20px;
+  max-width: 250px;
+
+  /* align-items: center; */
+
+  flex: 0.4;
+  display: flex;
+  padding: 0 50px;
+}
+.header__search > input {
+  background-color: transparent;
+  outline: none;
+  border-style: none;
+
+  text-align: center;
+}
+
+.header__right {
+  flex: 0.3;
+  align-items: flex-end;
+  display: flex;
+}
+.header__help {
+  margin-left: auto;
+  margin-right: 20px;
+}

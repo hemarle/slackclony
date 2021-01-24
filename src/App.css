@@ -1,0 +1,19 @@
+body {
+  /* overflow: hidden; */
+}
+
+.app__body {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app__welcome {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.app__welcome > h4 {
+  padding: 40px;
+}

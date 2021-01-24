@@ -1,0 +1,28 @@
+.chat {
+  flex: 0.7;
+}
+.chat__body > h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.chat__button {
+  background-color: brown !important;
+  bottom: 0 !important;
+  margin-left: 10px !important;
+  /* position: fixed !important; */
+}
+
+.chat__form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.chat__form > input {
+  /* position: fixed; */
+  bottom: 100px;
+  min-width: 30%;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 20px;
+}
